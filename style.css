@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: white;
+}
+
+.hero button {
+  padding: 12px 24px;
+  border: none;
+  background: white;
+  color: #4f46e5;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.features div {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
